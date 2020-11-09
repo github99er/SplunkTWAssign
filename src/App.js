@@ -6,18 +6,18 @@ export default class App extends React.Component {
     return (
       <div className="App">
         <div className="tabs">
-          <h1>Create a Recurring Event in Google Calendar</h1>
+          <h1>Create a recurring event in Google Calendar</h1>
           <p>
             {" "}
-            Google Calender lets you create repeating events.{" "}
+            Google Calendar lets you create repeating events.{" "}
          </p>
           <ol>
-            <li>Navigate to Google Calendar</li>
-            <li>Add an Event</li>
+            <li>Navigate to Google Calendar.</li>
+            <li>Add an event.</li>
             <li>
-              Select <b> More Options </b>{" "}
+              Select <b> More options</b>.{" "}
             </li>
-            <li> Set the frequency </li>
+            <li> Set the frequency. </li>
           </ol>
           <Tabs>
             <Tab label="Computer">
@@ -44,24 +44,24 @@ export default class App extends React.Component {
                 </p>
                 <img className="img" src="https://i.imgur.com/hxhtB4E.png" />
 
-                <h2> Add an Event </h2>
+                <h2> Add an event </h2>
                 <p>
                   {" "}
                  Click <b>+ Create</b> to add an event.{" "}
                 </p>
-                <h2> Select More Options </h2>
+                <h2> Select More options </h2>
                 <p>
                   {" "}
                  Click{" "}
                   <b>
-                    More Options <i class="arrow right"></i> Does Not Repeat </b>
+                    More options <i class="arrow right"></i> Does not repeat </b>
                     to alter the event's frequency.
                   {" "}
                 </p>
-                <h2> Set the Frequency </h2>
+                <h2> Set the frequency </h2>
                 <p>
                   {" "}
-                  Select how often you want the event to repeat, and when you want that event to stop repeating.                </p>
+                  Select how often you want the event to repeat and when you want that event to stop repeating.                </p>
                 <img className="img" src="https://i.imgur.com/MEnGQdj.png" />
               </div>
             </Tab>
@@ -86,25 +86,25 @@ export default class App extends React.Component {
                   .
                 </p>
 
-                <h2> Add an Event </h2>
+                <h2> Add an event </h2>
                 <p>
                   {" "}
                   Click <b>+ Event </b> to add an
                   event.{" "}
                 </p>
-                <h2> Select More Options </h2>
+                <h2> Select More options </h2>
                 <p>
                   {" "}
                  Click{" "}
                   <b>
-                    More Options <i class="arrow right"></i> Does Not Repeat </b>
+                    More options <i class="arrow right"></i> Does mot repeat </b>
                     to alter the event's frequency.
                   {" "}
                 </p>
-                <h2> Set the Frequency </h2>
+                <h2> Set the frequency </h2>
                 <p>
                   {" "}
-                  Select how often you want the event to repeat, and when you want that event to stop repeating.
+                  Select how often you want the event to repeat and when you want that event to stop repeating.
                 </p>
                 <img src="https://i.imgur.com/uFV8ssL.png" />
               </div>
