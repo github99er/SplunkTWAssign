@@ -29,6 +29,7 @@ export default class App extends React.Component {
                   Google Calendar. If you don't already have one, you can read
                   more about creating a Google account &nbsp;
                   <a
+                  target="_blank"
                     className="link"
                     href="https://support.google.com/accounts/answer/27441?hl=en"
                   >
@@ -38,7 +39,7 @@ export default class App extends React.Component {
                 </p>
 
                 <p>
-                  Go to   <a className="link" href="https://calendar.google.com/">
+                  Go to   <a target="_blank" className="link" href="https://calendar.google.com/">
                     calendar.google.com
                   </a> to access Google Calendar. If you're already on another Google page, click the <b> Google apps</b> button, then click the <b>Calendar</b> icon.
                 </p>
@@ -78,6 +79,7 @@ export default class App extends React.Component {
                   Google Calendar. If you don't already have one, you can read
                   more about creating a Google account &nbsp;
                   <a
+                   target="_blank"
                     className="link"
                     href="https://support.google.com/accounts/answer/27441?hl=en"
                   >
