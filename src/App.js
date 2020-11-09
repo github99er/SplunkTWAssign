@@ -40,7 +40,7 @@ export default class App extends React.Component {
                 <p>
                   Go to   <a className="link" href="https://calendar.google.com/">
                     calendar.google.com
-                  </a> to access Google Calendar. If you're already on another Google page, click the <b> Google Apps</b> button, then click the <b>Calendar</b> icon.
+                  </a> to access Google Calendar. If you're already on another Google page, click the <b> Google apps</b> button, then click the <b>Calendar</b> icon.
                 </p>
                 <img className="img" src="https://i.imgur.com/hxhtB4E.png" />
 
