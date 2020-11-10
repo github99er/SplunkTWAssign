@@ -89,3 +89,17 @@ button {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
+
+code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f6f8fa;
+  padding: 3px;
+  font-size: 105%;
+  margin: 2px;
+  margin: 0 2px;
+  padding: 0px 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}

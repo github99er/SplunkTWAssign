@@ -6,7 +6,10 @@ export default class App extends React.Component {
     return (
       <div className="App">
         <div className="tabs">
-          <h1>Create a recurring event in Google Calendar</h1>
+        <Tabs>
+            <Tab label="Exercise 1">
+              <div>
+              <h1>Create a recurring event in Google Calendar</h1>
           <p>
             {" "}
             Google Calendar lets you create repeating events.{" "}
@@ -112,6 +115,46 @@ export default class App extends React.Component {
               </div>
             </Tab>
           </Tabs>
+              
+              </div>
+            </Tab>
+            <Tab label="Exercise 2">
+              <div>
+            <h1>Difference between on-premises and cloud deployment</h1>
+            <p>Cloud deployments and on-premises deployments differ in price, reliability, security, and scalability.</p>
+          
+              <h2>Price</h2>
+              <p>Cloud-based software lets a company deploy at a cheaper rate because there is no necessary hardware to host on-site servers; instead, the cloud utilizes either subscription-based or pay as you go models. </p>
+              <h2>Reliability</h2>
+              <p>On-premises provides software deployments more reliability because applications can fetch data faster and partially function without an internet connection.</p>
+              <h2>Security</h2>
+              <p>Cloud deployments are less secure because third-party vendors handle sensitive customer data.</p>
+              <h2>Scalability</h2>
+              <p>On-premises deployments require both hardware and software upgrades, which limits scalability.</p>
+              </div>
+            </Tab>
+            <Tab label="Exercise 3">
+              <div>
+              <h2>
+                Lookups
+              </h2>
+              <p>Comparing defined primary functions with running processes, installed services, and listening ports found on a system can determine primary functions.</p>
+              <ul>
+                <li>"localprocesses_tracker" returns running processes</li>
+                <li>"services_tracker" returns services</li>
+                <li>"listeningports_tracker" returns listening ports</li>
+              </ul>
+              <h2> And</h2>
+              <p>Compliance Managers use multiple services and processes to determine the primary function of a system. 
+                So long as the function name is consistent among applications in the stack, determining the primary function is 
+                achievable by defining a primary service. Several service names can represent an application stack and a single function. 
+                Identify all services and processes associated with a primary function having the same function name in
+                &nbsp;<code>SA-EndpointProtection/lookups/primary_functions.csv</code>.</p>
+              </div>
+            </Tab>
+          </Tabs>
+        
+          
         </div>
       </div>
     );
